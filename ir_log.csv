@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"không nhìn rõ dây an toàn trên áo tối hoặc vật thể nhỏ",seatbelt,"giữ unknown; đối chiếu RGB cùng cảnh trước khi kết luận"
+S02_ir,IR_sim,"chi tiết vật thể trong cabin giảm sắc và gần một phần được che khuất",object,"giữ type=other hoặc unknown theo mức nhìn thấy"
+S03_ir,IR_sim,"không phân biệt rõ trạng thái bên trong ghế trẻ em",occupied,"dùng no khi thấy trống; unknown nếu không thấy rõ"
+D03,real_IR,"đốm phản xạ LED trên tròng kính che một phần mắt",right_eye_state,"ghi unknown thay cho closed nếu không xác định được mí mắt"
