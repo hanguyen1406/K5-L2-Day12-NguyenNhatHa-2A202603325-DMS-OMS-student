@@ -1,1 +1,47 @@
-image,object,mine_label,peer_label,iou,verdict,guideline_rule,action
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,gaze_zone,khác giá trị (IoU=0.82),lap,center,mine,4.5,giữ lap nếu hướng nhìn xuống lòng; phản ánh lại trong CVAT nếu sai
+D01.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D01.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D02.png,face13,left_eye_upper.occluded,khác cờ,0,1,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D03.png,face13,left_eye_inner.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D03.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D03.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D05.png,face,eye_right,khác giá trị (IoU=0.65),unknown,open,mine,4.5,giữ eye_right=unknown vì mắt không nhìn rõ
+D05.png,face13,right_eye_outer.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D05.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D05.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D05.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D05.png,face13,lip_lower.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D06.png,person,seatbelt,khác giá trị (IoU=0.94),unknown,worn_correct,mine,4.7,giữ seatbelt=unknown khi không xác định được dây
+D06.png,face,eye_left,khác giá trị (IoU=0.77),closed,open,mine,4.5,giữ closed nếu thấy mí khép; unknown nếu không nhìn rõ
+D06.png,face,gaze_zone,khác giá trị (IoU=0.77),lap,center,mine,4.5,giữ lap nếu hướng nhìn xuống lòng; phản ánh lại trong CVAT nếu sai
+D06.png,face13,right_eye_inner.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+D06.png,face13,right_eye_upper.occluded,khác cờ,1,0,mine,4.6,giữ/đặt cờ occluded; điểm ngoài khung dùng outside
+S01_ir.png,face,eye_left,khác giá trị (IoU=0.90),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S01_ir.png,face,eye_right,khác giá trị (IoU=0.90),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S01_ir.png,face,glasses,khác giá trị (IoU=0.90),unknown,none,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S01_rgb.png,face,eye_left,khác giá trị (IoU=0.93),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S01_rgb.png,face,eye_right,khác giá trị (IoU=0.93),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S01_rgb.png,face,glasses,khác giá trị (IoU=0.93),unknown,none,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S02_rgb.png,infant_seat,facing,khác giá trị (IoU=0.97),rear,front,mine,4.8,giữ rear; check hướng ghế theo xe
+S03_ir.png,frame_meta,modality,khác giá trị,rgb,ir,peer,4.3,đổi modality sang ir
+S04_ir.png,face,eye_left,khác giá trị (IoU=0.88),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S04_ir.png,face,eye_right,khác giá trị (IoU=0.88),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S04_ir.png,face,glasses,khác giá trị (IoU=0.88),unknown,none,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S04_rgb.png,face,eye_left,khác giá trị (IoU=0.91),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S04_rgb.png,face,eye_right,khác giá trị (IoU=0.91),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S04_rgb.png,face,glasses,khác giá trị (IoU=0.91),unknown,none,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S06_ir.png,face,eye_left,khác giá trị (IoU=0.78),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S06_ir.png,face,eye_right,khác giá trị (IoU=0.78),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S06_ir.png,face,glasses,khác giá trị (IoU=0.78),unknown,none,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S06_rgb.png,face,eye_left,khác giá trị (IoU=0.70),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S06_rgb.png,face,eye_right,khác giá trị (IoU=0.70),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S06_rgb.png,face,glasses,khác giá trị (IoU=0.70),unknown,none,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S08_ir.png,face,eye_left,khác giá trị (IoU=0.68),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S08_ir.png,face,eye_right,khác giá trị (IoU=0.68),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S08_ir.png,face,glasses,khác giá trị (IoU=0.68),unknown,none,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S08_ir.png,infant_seat,facing,khác giá trị (IoU=0.97),rear,front,mine,4.8,giữ rear; check hướng ghế theo xe
+S08_rgb.png,face,eye_left,khác giá trị (IoU=0.71),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S08_rgb.png,face,eye_right,khác giá trị (IoU=0.71),unknown,open,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S08_rgb.png,face,glasses,khác giá trị (IoU=0.71),unknown,none,ambiguous,4.1/4.2,OMS chỉ cần box face; giữ eye/glasses là unknown nếu không chắc
+S08_rgb.png,infant_seat,facing,khác giá trị (IoU=0.97),rear,front,mine,4.8,giữ rear; check hướng ghế theo xe
